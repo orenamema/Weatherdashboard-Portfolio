@@ -1,13 +1,128 @@
 .navbar-text{
-    text-decoration-color: blueviolet;
+    color: whitesmoke;
+    font-size: 50px;
+}
 
+
+#top-card {
+    height: 300px;
 }
-.container{
- margin-left: 40px; 
- padding-top: 100px; 
- padding-right: 800px;
- size: 50%; 
+
+  #cities{
+      margin-top: 50px;
+  }
+
+.forecast-card {
+    background-color:rgb(27, 132, 253);
+    /* margin-left:-60px ; */
+    /* margin-top:300px ; */
+    border-radius: 5px;
+    width: 100%;
+    height: 300px; 
+    margin-top: 20px;
+    /* border: 2px solid grey; */
+    /* padding: 50px; */
 }
-.form-control{
-    
+
+/* #fc1{
+
+} */
+
+/* #fc2{
+    margin-left: 17%;   
 }
+
+#fc3{
+      
+} */
+
+  
+  .forecast2{
+    background-color:rgb(27, 132, 253);
+    margin-left:180px ;
+    margin-top:-300px ;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px; 
+    border: 2px solid grey;
+    padding: 50px;
+  }
+  .forecast3{
+    background-color:rgb(27, 132, 253);
+    margin-left:400px ;
+    margin-top:-300px ;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px; 
+    border: 2px solid grey;
+    padding: 50px;
+  }
+  .forecast4{
+    background-color:rgb(27, 132, 253);
+    margin-left:620px ;
+    margin-top:-300px ;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px; 
+    border: 2px solid grey;
+    padding: 50px;
+  }
+  .forecast5{
+    background-color:rgb(27, 132, 253);
+    margin-left:850px ;
+    margin-top:-300px ;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px; 
+    border: 2px solid grey;
+    padding: 50px;
+  }
+
+
+
+  .sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 100;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  .sidenav img {
+    width: 35%;
+    margin-left: 73%;
+    margin-top: -75px;
+  }
+
+  #search-box {
+    margin-left: 5%;
+    width: 75%;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    height: 100%;
+    margin-left: 300px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 20px 20px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

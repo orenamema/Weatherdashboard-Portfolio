@@ -15,14 +15,101 @@
 
 </head>
 <body>
-        <nav class="navbar navbar-dark bg-dark">
-                <span class="navbar-text">
-                  <h1>Weather Dashboard</h1>
-                </span>
-              </nav>
-            </div>  
 
-        <div class="jumbotron jumbotron-fluid">
+        <!-- This is my navbar -->
+        <nav class="navbar navbar-dark bg-dark">
+            <span class="navbar-text">
+                    Weather Dashboard
+            </span>
+        </nav>
+  
+
+        <!-- This is my sidebar -->
+        <div class="sidenav">
+            <input id="search-box" class="form-control form-control-lg" type="text" placeholder="">
+            <img src="assets/images/search_pic.png" alt="search button">
+            <a href="#">Austin</a>
+            <a href="#">Chicago</a>
+            <a href="#">New York</a>
+            <a href="#">San Francisco</a>
+            <a href="#">Seattle</a>
+            <a href="#">Denver</a>
+            <a href="#">Atlanta</a>
+        </div>    
+        
+        
+        <div class="main">
+
+            <div id="top-card" class="card">
+                    <div class="card-body">
+                        City<br> Temperature<br>Humidity<br>Wind Speed<br>UV Index
+                    </div>     
+            </div>
+
+            <div class="container" id="bottom-container">
+
+                <div class="row w-100">
+                        <p>5-Day Forecast</p>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="forecast-card" id="fc1" class="card">
+                                <div class="card-body">
+                                
+                                </div> 
+                        </div>  
+                    </div>
+                    <div class="col">
+                            <div class="forecast-card" id="fc2" class="card">
+                                    <div class="card-body">
+                                    
+                                    </div> 
+                            </div>  
+                    </div>
+                    <div class="col">
+                            <div class="forecast-card" id="fc3" class="card">
+                                    <div class="card-body">
+                                    
+                                    </div> 
+                            </div>  
+                    </div>
+                    <div class="col">
+                            <div class="forecast-card" id="fc4" class="card">
+                                    <div class="card-body">
+                                    
+                                    </div> 
+                            </div>  
+                    </div>    
+                    <div class="col">
+                            <div class="forecast-card" id="fc5" class="card">
+                                    <div class="card-body">
+                                    
+                                    </div> 
+                            </div>  
+                    </div>                                    
+
+                </div>
+    
+
+            </div>
+
+            <!-- <div class = "forecast1" ></div> -->
+
+
+
+
+        </div>
+
+                
+
+
+            
+</body>
+</html>
+
+
+        <!-- <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                   <h1 class="display-4">City</h1>
                   <p class="lead">
@@ -30,60 +117,48 @@
                       Humidity: <br>
                       Wind Speed: <br>
                       UV Index:
-                  </p>
-                </div>
-              </div>
+                  </p> -->
 
-        </div>
-        </div>
-            <div class="container">  
-
-                    <div class="row">
-                            <div class ="col-sm-6">
-                            <input class="form-control form-control-lg" type="text" placeholder="">
-                        
-                        </div> 
-        <div class ="col-sm-6">
-            <ul class="list-group">
-                    <li class="list-group-item">Austin</li>
-                    <li class="list-group-item">Chicago</li>
-                    <li class="list-group-item">New York</li>
-                    <li class="list-group-item">San Francisco</li>
-                    <li class="list-group-item">Seattle</li>
-                    <li class="list-group-item">Denver</li>
-                    <li class="list-group-item">Atlanta</li>
-                  </ul>
-                </div>
-
-                <div class="card text-center">
+                  <!-- <div class="container"></div>
+                  <div class ="col-sm-6">
+                  <div class="card text-center">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                          <h5 class="card-title">Day 1</h5>
+                          <p class="card-text"> </p>
                         </div>
                       </div>
+                    </div>
+                        <br>
+                        <div class ="col-sm-6">
                       <div class="card text-center">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                              <h5 class="card-title">Day 2</h5>
+                              <p class="card-text"> </p>
                             </div>
                           </div>
+                        </div>
+                          <br>
                           <div class="card text-center">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                                  <h5 class="card-title">Day 3</h5>
+                                  <p class="card-text"> </p>
                                 </div>
                               </div>
+                              <br>
                               <div class="card text-center">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                                      <h5 class="card-title">Day 4</h5>
+                                      <p class="card-text"> </p>
                                     </div>
                                   </div>
+                                  <br>
                                   <div class="card text-center">
                                         <div class="card-body">
-                                          <h5 class="card-title">Card title</h5>
-                                          <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                                          <h5 class="card-title">Day 5</h5>
+                                          <p class="card-text"> </p>
                                         </div>
                                       </div>
-</body>
-</html>
+                </div>
+              </div>
+        </div>
+        </div> -->
