@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
     <meta charset="UTF-8">
@@ -28,13 +30,13 @@
         <div class="sidenav">
             <input id="search-box" class="form-control form-control-lg" type="text" placeholder="">
             <img src="assets/images/search_pic.png" alt="search button">
-            <a href="#">Austin</a>
-            <a href="#">Chicago</a>
-            <a href="#">New York</a>
-            <a href="#">San Francisco</a>
-            <a href="#">Seattle</a>
-            <a href="#">Denver</a>
-            <a href="#">Atlanta</a>
+            <a href="#" id="Austin">Austin</a>
+            <a href="#" id="Chicago">Chicago</a>
+            <a href="#" id="New-York">New York</a>
+            <a href="#" id="San-Francisco">San Francisco</a>
+            <a href="#" id="Seattle">Seattle</a>
+            <a href="#" id="Denver">Denver</a>
+            <a href="#" id="Atlanta">Atlanta</a>
         </div>    
         
         
@@ -42,7 +44,11 @@
 
             <div id="top-card" class="card">
                     <div class="card-body">
-                        City<br> Temperature<br>Humidity<br>Wind Speed<br>UV Index
+                        <p id="city">City</p>
+                        <p id="temperature">Temperature</p>
+                        <p id="humidity">Humidity</p>
+                        <p id="wind">Wind Speed</p>
+                        <p id="uv">UV Index</p>
                     </div>     
             </div>
 
@@ -106,59 +112,6 @@
 
             
 </body>
+<script src="assets/javascript/script.js"></script>
+
 </html>
-
-
-        <!-- <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                  <h1 class="display-4">City</h1>
-                  <p class="lead">
-                      Temperature: <br>
-                      Humidity: <br>
-                      Wind Speed: <br>
-                      UV Index:
-                  </p> -->
-
-                  <!-- <div class="container"></div>
-                  <div class ="col-sm-6">
-                  <div class="card text-center">
-                        <div class="card-body">
-                          <h5 class="card-title">Day 1</h5>
-                          <p class="card-text"> </p>
-                        </div>
-                      </div>
-                    </div>
-                        <br>
-                        <div class ="col-sm-6">
-                      <div class="card text-center">
-                            <div class="card-body">
-                              <h5 class="card-title">Day 2</h5>
-                              <p class="card-text"> </p>
-                            </div>
-                          </div>
-                        </div>
-                          <br>
-                          <div class="card text-center">
-                                <div class="card-body">
-                                  <h5 class="card-title">Day 3</h5>
-                                  <p class="card-text"> </p>
-                                </div>
-                              </div>
-                              <br>
-                              <div class="card text-center">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Day 4</h5>
-                                      <p class="card-text"> </p>
-                                    </div>
-                                  </div>
-                                  <br>
-                                  <div class="card text-center">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Day 5</h5>
-                                          <p class="card-text"> </p>
-                                        </div>
-                                      </div>
-                </div>
-              </div>
-        </div>
-        </div> -->
