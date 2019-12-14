@@ -1,7 +1,7 @@
 # Weatherdashboard-Portfolio
 # Introduction
 
-In this assignment we are asked to build a weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities.
+In this assignment we were asked to build a weather dashboard application with search functionality to find current weather conditions and the future weather outlook for multiple cities.
 
 I have used AJAX to hook into the API to retrieve data in JSON format. The app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
@@ -87,6 +87,3 @@ Following is the code for the top card:
                         <!-- <p id="uv">UV Index</p> -->
                     </div>     
             </div>
-            ```
-
-
