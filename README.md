@@ -38,6 +38,7 @@ There are 3 files:
 * Application uses icons to represent weather conditions.
 * Application stores previously searched for cities in localstorage and displays them to the user.
 * Application loads last searched city forecast on page load.
+
 Following is the code for the cards that display the 5 day forecast:
 
 ```javascript
