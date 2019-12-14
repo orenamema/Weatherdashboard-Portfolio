@@ -3,6 +3,18 @@
     font-size: 50px;
 }
 
+h4,h6 {
+  color:white;
+}
+
+#forecast5day{
+  margin-top: 5%;
+}
+
+#navbar1{
+  color:white;
+  margin-left: 40%;
+}
 
 #top-card {
     height: 300px;
@@ -18,7 +30,7 @@
     /* margin-top:300px ; */
     border-radius: 5px;
     width: 100%;
-    height: 300px; 
+    height: 200px; 
     margin-top: 20px;
     /* border: 2px solid grey; */
     /* padding: 50px; */

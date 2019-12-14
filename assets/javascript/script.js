@@ -1,11 +1,5 @@
-// function buildQueryURL() {
-// var queryURL=" https://api.openweathermap.org/data/2.5/forecast/daily?q={city name},{country code}&cnt={cnt}";
-// var queryParams = { "api-key": "31f4dd752a3e8b29f840df4abf0996cc" };
-
-
 
 // api.openweathermap.org/data/2.5/forecast?q=London,us&mode=json&APPID=31f4dd752a3e8b29f840df4abf0996cc
-
 
 function getWeather(city="San Francisco"){
     var city = city.replace(" ", "+");
@@ -33,8 +27,8 @@ function change_bottom(data){
             $(the_lists.pop()).append(
                 `<h4>${data.list[i].dt_txt.substring(0,10)}</h4>
                 <img src="http://openweathermap.org/img/w/${data.list[i].weather[0].icon}.png"/>
-                <h5> Temp:${data.list[i].main.temp_max} °F </h5>
-                <h5>Humidity:${data.list[i].main.humidity}% </h5>`
+                <h6> Temp: ${data.list[i].main.temp_max} °F </h6>
+                <h6>Humidity: ${data.list[i].main.humidity}% </h6>`
             );
         }
     }
@@ -48,15 +42,15 @@ function change_top(data){
                         + data.list[0].dt_txt.substring(0,10) 
                         + ")"}</p>
         <img src="http://openweathermap.org/img/w/${data.list[i].weather[0].icon}.png"/>                        
-        <p id="temperature">${"Temperature: " 
+        <h5 id="temperature">${"Temperature: " 
                         + data.list[0].main.temp.toString() 
-                        + " F"}</p>
-        <p id="humidity">${"Humidity: " 
+                        + " F"}</h5>
+        <h5 id="humidity">${"Humidity: " 
                         + data.list[0].main.humidity.toString() 
-                        + "%"}</p>
-        <p id="wind">${"Wind Speed: " 
+                        + "%"}</h5>
+        <h5 id="wind">${"Wind Speed: " 
                         + data.list[0].wind.speed.toString() 
-                        + " MPH"}</p>`           
+                        + " MPH"}</h5>`           
     );
 }
 
