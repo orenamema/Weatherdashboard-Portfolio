@@ -22,7 +22,7 @@ There are 3 files:
 
 ## Website
 
-![alt text](https://github.com/orenamema/Weatherdashboard/raw/master/assets/images/weather.gif)
+![alt text](https://github.com/orenamema/Weatherdashboard-Portfolio/raw/master/assets/images/weather.gif)
 
 ## Requirements
 
