@@ -39,3 +39,14 @@ There are 3 files:
 * Application stores previously searched for cities in localstorage and displays them to the user.
 * Application loads last searched city forecast on page load.
 
+```
+            <div id="top-card" class="card">
+                    <div class="card-body" id="top-card-body">
+                        <p id="city">City</p>
+                        <p id="temperature">Temperature</p>
+                        <p id="humidity">Humidity</p>
+                        <p id="wind">Wind Speed</p>
+                        <!-- <p id="uv">UV Index</p> -->
+                    </div>     
+            </div>```
+
