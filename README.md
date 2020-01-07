@@ -24,6 +24,8 @@ There are 3 files:
 
 ![alt text](https://github.com/orenamema/Weatherdashboard-Portfolio/raw/master/assets/images/weather.gif)
 
+Here is the [link](https://orenamema.github.io/Weatherdashboard-Portfolio/) to the page
+
 ## Requirements
 
 * Functional, deployed application.
